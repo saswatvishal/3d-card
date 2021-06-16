@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+  }
+  
+  
+  .card-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 35rem;
+  padding: 3rem 5rem;
+  box-shadow: 0 20px 20px rgba(3, 0, 39, 0.801),0px 0px 50px rgba(0,0,0,0.2);
+  }
+  
+  .logo-img {
+  min-height: 35vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .logo-img img {
+  width: 20rem;
+  z-index: 2;
+  }
+  
+  .circle {
+  width: 15rem;
+  height: 15rem;
+  box-shadow: 0 20px 20px rgba(3, 0, 39, 0.801),0px 0px 50px rgba(0,0,0,0.2);
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 76),
+    rgb(10, 0, 54)
+    
+  );
+  position: absolute;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  }
+  
+  .name {
+  font-size: 3rem;
+  color: #585858;
+  font-weight: lighter;
+  }
+
+  .name2 {
+    font-size: 15px;
+    color: #585858;
+    font-weight: lighter;
+  }
+
+  .description{
+    font-size: 10px;
+    color: #585858;
+    font-weight: lighter;
+  }
